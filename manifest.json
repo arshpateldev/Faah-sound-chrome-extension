@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "FAAH Pro",
+  "version": "2.0",
+  "description": "Custom tab close sound extension with volume and pitch control.",
+  
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "128": "logo.svg"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo.svg"
+    }
+  },
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["faah.mp3"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff1e1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6a00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#0f0f0f"/>
+
+  <!-- Stylized F -->
+  <path d="M40 28 
+           L90 28 
+           L85 42 
+           L55 42 
+           L55 58 
+           L80 58 
+           L75 72 
+           L55 72 
+           L55 100 
+           L40 100 Z"
+        fill="url(#grad)"
+        stroke="#ffffff"
+        stroke-width="2"/>
+
+  <!-- Lightning Cut Effect -->
+  <polygon points="60,50 75,50 65,70 80,70 55,105 65,75 50,75"
+           fill="#ffffff"
+           opacity="0.15"/>
+</svg>
