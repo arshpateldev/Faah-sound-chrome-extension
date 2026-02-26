@@ -115,10 +115,6 @@ Animated tab-close visual effects
 
 Chrome Web Store publishing
 
-📜 License
-
-MIT License
-
 👨‍💻 Author
 
 Built as a Chrome Extension project to explore modern browser APIs and event-driven architecture.
